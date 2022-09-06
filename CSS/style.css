@@ -4,6 +4,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* RESPONSIVE */
@@ -164,6 +165,12 @@ body {
     text-align: center;
 }
 
+footer{
+    width: 100%;
+    background: linear-gradient(to top, rgb(183,210,81),rgb(96,171,174));
+    padding: auto;
+}
+
 .redes{
     list-style: none;
     display: flex;
@@ -206,6 +213,13 @@ header div p{
     align-items: center;
     text-align: center;
 }
+
+.scale:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+    transition: transform 2s;
+}
+
 
 .flexGrow1{
     flex-grow: 1;
@@ -256,7 +270,7 @@ h3{
 
 h4{
     font-family: 'Nunito Sans', sans-serif;
-    color: #f1f1f1;
+    color: black;
     font-size:0.8rem;
     text-align: center;
 }
@@ -312,11 +326,7 @@ main{
     background-color: #ffffff;
 }
 
-footer{
-    width: 100%;
-    background-color: #60abae;
-    padding: auto;
-}
+
 
 .formulario{
     padding-left: 20px;
@@ -396,7 +406,7 @@ address div h3{
 }
 
 .boxRecetasCocina{
- box-sizing: border-box;   
+   
  width: 16.5%;
  Padding: 10px;
 }
