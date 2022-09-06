@@ -382,22 +382,29 @@ address div h3{
     background-color: #aaaaaa;
 }
 
+.iframeRecetas{
+    padding: 5px;
+}
+
 .containerRecetasCocina{
     display: flex;
     flex-direction: row;
-    padding: auto;
+    padding: 20px;
     background-color: rgb(159,204,206); 
-
-   
+    align-items: center;
+    justify-content: center;
 }
 
 .boxRecetasCocina{
  box-sizing: border-box;   
- width: 25%;
- 
+ width: 16.5%;
  Padding: 10px;
 }
 
+.tituloRecetas{
+    padding: 30px;
+    background-color: #ffffff;
+}
 
 
 /* ---ETIQUETAS RUTINA ----*/
