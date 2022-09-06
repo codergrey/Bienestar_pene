@@ -552,10 +552,10 @@ address div h3{
         "videx videx"
         "nindex1 nindex1"
         "nindex2 pindex1";
-    }
+}
     }
     
-    @media (min-width:1024px){
+@media (min-width:1024px){
     #contenedor-grid-index{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
@@ -568,13 +568,26 @@ address div h3{
         "nindex1 nindex1 nindex1 nindex1"
         "nindex2 nindex2 nindex2 pindex1"
         "nindex2 nindex2 nindex2 pindex1";
-    }
+}
     }
 
-    @media (max-width:767px){
-#contenedor-grid-index{
+@media (max-width:767px){
+    #contenedor-grid-index{
 }
     #ocultar{
         visibility: hidden;
     }
+    }
+
+
+    @media (max-width:1024px){
+        #contenedorRecetasResponsive{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+
+
+        }
     }
