@@ -570,11 +570,9 @@ address div h3{
         "nindex2 nindex2 nindex2 pindex1";
     }
     }
-
     @media (max-width:767px){
-#contenedor-grid-index{
-}
     #ocultar{
         visibility: hidden;
     }
     }
+    
