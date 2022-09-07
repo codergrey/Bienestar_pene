@@ -569,25 +569,4 @@ address div h3{
         "nindex2 nindex2 nindex2 pindex1"
         "nindex2 nindex2 nindex2 pindex1";
 }
-    }
-
-@media (max-width:767px){
-    #contenedor-grid-index{
 }
-    #ocultar{
-        visibility: hidden;
-    }
-    }
-
-
-    @media (max-width:1024px){
-        #contenedorRecetasResponsive{
-            display: flex;
-            flex-direction: column;
-            justify-items: center;
-            justify-content: center;
-            align-items: center;
-
-
-        }
-    }
